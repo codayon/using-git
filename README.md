@@ -1,16 +1,22 @@
 ## git commands with little description
 
+generate ssh key
+
+```
+ssh-keygen -t ed25519 -C "your_email@example.com"
+```
+
 git user global config
 
 ```
-git config --global user.name “[firstname lastname]”
+git config --global user.name "[firstname lastname]"
 
 ```
 
 git email global config
 
 ```
-git config --global user.email “[valid-email]”
+git config --global user.email "[valid-email]"
 ```
 
 initialize git inside a folder
