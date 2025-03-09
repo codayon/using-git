@@ -3,7 +3,7 @@
 generate ssh key
 
 ```
-ssh-keygen -t ed25519 -C "your_email@example.com"
+ssh-keygen -t ed25519 -C "[valid-email]"
 ```
 
 git user global config
